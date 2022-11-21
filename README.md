@@ -1,6 +1,6 @@
 # Web-Scraping
 
-![image](file:///C:/Users/Pratik%20Datey/Downloads/new(4).png)
+![image](new(4).png)
 
 # Model
 - This model will scrape BRAND Name ,PRICE and IMAGE of a product from Flipkart Website.
