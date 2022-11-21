@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body style="text-align: center; background-color: black; color: rgb(255, 255, 255);">
+        <h1>200 Search Results of {{ search }} on Flipkart</h1><br><br><br><br>
+        
+        {% for i in range(0, 200 ) %}
+        <b>{{ result['Brand'][i] }}</b></b><br><br>
+        <b>{{ result['Price'][i] }}</b><br><br>
+        <img src="{{ result['Image'][i] }}"width="200" height="200"><br><br><br><br><br>
+
+        {% endfor %}
+
+
+
+
+
+        </body>
+
+    
+
+
+      
+  
+
+
+</html>
